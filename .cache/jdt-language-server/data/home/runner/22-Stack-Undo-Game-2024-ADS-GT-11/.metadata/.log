@@ -1,0 +1,611 @@
+!SESSION 2023-11-11 21:16:13.232 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/22-Stack-Undo-Game-2024-ADS-GT-11/.cache/jdt-language-server/data/home/runner/22-Stack-Undo-Game-2024-ADS-GT-11
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:17.118
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:17.840
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:18.009
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:18.011
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:18.019
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:18.019
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:18.024
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:18.026
+!MESSAGE Wait for AutoBuildOffJob end 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:18.026
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:18.027
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:18.028
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:18.029
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:18.127
+!MESSAGE Started org.eclipse.buildship.core 97ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:19.850
+!MESSAGE LoadingGradleVersionJob finished 1722ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:19.935
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:20.220
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:20.532
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:22.150
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-11 21:16:22.237
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: /home/runner/22-Stack-Undo-Game-2024-ADS-GT-11 overlaps the workspace location: /home/runner/22-Stack-Undo-Game-2024-ADS-GT-11/.cache/jdt-language-server/data/home/runner/22-Stack-Undo-Game-2024-ADS-GT-11
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2023-11-11 21:16:22.239
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-11-11 21:16:22.239
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2023-11-11 21:16:22.239
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2023-11-11 21:16:22.239
+!MESSAGE /home/runner/22-Stack-Undo-Game-2024-ADS-GT-11 overlaps the workspace location: /home/runner/22-Stack-Undo-Game-2024-ADS-GT-11/.cache/jdt-language-server/data/home/runner/22-Stack-Undo-Game-2024-ADS-GT-11
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:22.309
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:22.318
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:22.419
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:22.424
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:22.425
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:23.312
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:23.542
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:24.408
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:24.410
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:24.417
+!MESSAGE Validated 1. Took 703 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:24.450
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:25.062
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:25.259
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:25.259
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:25.315
+!MESSAGE begin problem for /Stack.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:25.315
+!MESSAGE 1 problems reported for /Stack.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:25.316
+!MESSAGE Validated 2. Took 353 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:25.474
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:25.974
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:26.034
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:26.038
+!MESSAGE The value of the local variable game is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:26.039
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:26.420
+!MESSAGE begin problem for /Stack.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:26.422
+!MESSAGE 1 problems reported for /Stack.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:26.874
+!MESSAGE begin problem for /CoinStacker.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:26.875
+!MESSAGE The method outputError(String) from the type CoinStacker is never used locally is of type UnusedPrivateMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:26.875
+!MESSAGE 2 problems reported for /CoinStacker.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:26.876
+!MESSAGE Validated 3. Took 998 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:26.879
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:26.881
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:26.922
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:26.926
+!MESSAGE Clearing problems for /CoinStacker.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:26.934
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:27.722
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:27.722
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:27.726
+!MESSAGE Clearing problems for /Stack.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:27.728
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:27.828
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:27.829
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:27.832
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:27.834
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.029
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.029
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.036
+!MESSAGE Clearing problems for /CoinStacker.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.039
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.412
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.414
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.417
+!MESSAGE Clearing problems for /Stack.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.419
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.551
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.553
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.555
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.631
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.636
+!MESSAGE Clearing problems for /CoinStacker.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.638
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.642
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.971
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:28.972
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:29.007
+!MESSAGE Clearing problems for /Stack.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:29.010
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:29.106
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:29.107
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:29.127
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:29.130
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:29.136
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:29.625
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:29.626
+!MESSAGE The value of the local variable game is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:29.626
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:29.736
+!MESSAGE begin problem for /Stack.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:29.737
+!MESSAGE 1 problems reported for /Stack.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:30.847
+!MESSAGE begin problem for /CoinStacker.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:30.906
+!MESSAGE The method outputError(String) from the type CoinStacker is never used locally is of type UnusedPrivateMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:30.908
+!MESSAGE 2 problems reported for /CoinStacker.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:30.910
+!MESSAGE Validated 3. Took 1376 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:42.403
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:43.231
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:16:43.608
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:05.271
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:09.953
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:10.853
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:12.938
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:14.063
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:16.507
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:17.252
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:21.756
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:23.248
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:25.798
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:25.971
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:26.522
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:30.968
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:31.011
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:31.604
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:17:46.373
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 21:18:20.550
+!MESSAGE >> document/codeAction
+!SESSION 2023-12-14 15:18:39.003 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/22-Stack-Undo-Game-2024-ADS-GT-11/.cache/jdt-language-server/data/home/runner/22-Stack-Undo-Game-2024-ADS-GT-11
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-12-14 15:18:42.576
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:44.614
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:45.805
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:46.090
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:46.106
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:46.276
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:46.277
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:46.297
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:46.298
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:46.307
+!MESSAGE ProjectRegistryRefreshJob finished 4ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:46.309
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:46.512
+!MESSAGE Started org.eclipse.buildship.core 203ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:49.307
+!MESSAGE LoadingGradleVersionJob finished 2792ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:50.088
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:52.989
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-12-14 15:18:53.023
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: /home/runner/22-Stack-Undo-Game-2024-ADS-GT-11 overlaps the workspace location: /home/runner/22-Stack-Undo-Game-2024-ADS-GT-11/.cache/jdt-language-server/data/home/runner/22-Stack-Undo-Game-2024-ADS-GT-11
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2023-12-14 15:18:53.025
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-12-14 15:18:53.025
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2023-12-14 15:18:53.025
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2023-12-14 15:18:53.025
+!MESSAGE /home/runner/22-Stack-Undo-Game-2024-ADS-GT-11 overlaps the workspace location: /home/runner/22-Stack-Undo-Game-2024-ADS-GT-11/.cache/jdt-language-server/data/home/runner/22-Stack-Undo-Game-2024-ADS-GT-11
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:53.130
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:53.151
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:53.155
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:53.180
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:53.181
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:54.194
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:54.726
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:54.889
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:55.129
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:55.627
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:55.628
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:55.683
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:55.686
+!MESSAGE The value of the local variable game is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:55.687
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:55.691
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:55.705
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:55.729
+!MESSAGE Clearing problems for /CoinStacker.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:55.731
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:55.882
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.019
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.025
+!MESSAGE Clearing problems for /Stack.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.026
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.099
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.103
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.104
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.124
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.190
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.190
+!MESSAGE Clearing problems for /CoinStacker.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.193
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.259
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.427
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.475
+!MESSAGE Clearing problems for /Stack.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.477
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.513
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.518
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.520
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.527
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.576
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.586
+!MESSAGE Clearing problems for /CoinStacker.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.588
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.675
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.800
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.806
+!MESSAGE Clearing problems for /Stack.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.808
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.874
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.894
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.907
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:56.908
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:57.304
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:57.306
+!MESSAGE The value of the local variable game is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:57.307
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:57.496
+!MESSAGE begin problem for /Stack.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:57.498
+!MESSAGE 1 problems reported for /Stack.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:58.399
+!MESSAGE begin problem for /CoinStacker.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:58.400
+!MESSAGE The method outputError(String) from the type CoinStacker is never used locally is of type UnusedPrivateMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:58.401
+!MESSAGE 2 problems reported for /CoinStacker.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:18:58.403
+!MESSAGE Validated 3. Took 1127 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-12-14 15:20:10.527
+!MESSAGE >> document/hover

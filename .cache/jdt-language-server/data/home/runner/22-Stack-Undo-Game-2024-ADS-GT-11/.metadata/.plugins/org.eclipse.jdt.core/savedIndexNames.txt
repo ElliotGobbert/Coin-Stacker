@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/runner/22-Stack-Undo-Game-2024-ADS-GT-11/.cache/jdt-language-server/data/home/runner/22-Stack-Undo-Game-2024-ADS-GT-11/.metadata/.plugins/org.eclipse.jdt.core
+3842426239.index
+63098532.index
